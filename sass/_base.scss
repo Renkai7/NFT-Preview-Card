@@ -1,0 +1,29 @@
+// Color variables
+$color-primary-blue: hsl(215, 51%, 70%);
+$color-primary-cyan: hsl(178, 100%, 50%);
+$color-dark-blue-1: hsl(217, 54%, 11%);
+$color-dark-blue-2: hsl(216, 50%, 16%);
+$color-dark-blue-3: hsl(215, 32%, 27%);
+$color-white: hsl(0, 0%, 100%);
+
+$bp-mobile: 23.44em;    // 375px
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.4;
+}
+
+

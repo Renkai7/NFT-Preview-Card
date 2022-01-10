@@ -1,0 +1,142 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  background-color: #0d192b;
+}
+
+.nft {
+  margin: 15rem auto;
+  background-color: #14253d;
+  max-width: 35rem;
+  max-height: 59.6rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2.4rem;
+}
+@media only screen and (max-width: 23.44em) {
+  .nft {
+    max-width: 32.7rem;
+    max-height: 54.3rem;
+  }
+}
+.nft__shape {
+  width: 30.2rem;
+  height: 30.2rem;
+  position: relative;
+  background-image: url(../images/image-equilibrium.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 23.44em) {
+  .nft__shape {
+    max-width: 27.2rem;
+    max-height: 27.2rem;
+  }
+}
+.nft__icon-view {
+  position: absolute;
+  top: 43%;
+  left: 40%;
+  border-radius: 5px;
+  opacity: 0;
+}
+.nft__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 247, 0.3);
+  background-image: url(../images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.nft__overlay:hover {
+  opacity: 1;
+}
+.nft__heading {
+  font-size: 2.2rem;
+  color: white;
+  margin: 2rem 0;
+  font-weight: 400;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.nft__heading:hover {
+  color: #00fff7;
+}
+.nft__text {
+  font-size: 1.8rem;
+  color: #8bacda;
+  font-weight: 300;
+}
+.nft__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #2f415b;
+  padding: 2rem 0;
+  align-items: center;
+}
+.nft__crypto-logo {
+  margin-bottom: -0.2rem;
+  margin-right: 0.5rem;
+}
+.nft__crypto-text {
+  color: #00fff7;
+  font-weight: 600;
+}
+.nft__time-left {
+  color: #8bacda;
+  font-size: 1.4rem;
+  display: flex;
+}
+.nft__time-symbol {
+  margin-right: 0.5rem;
+}
+.nft__creator {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.nft__creator-avatar {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+.nft__created-by {
+  color: #8bacda;
+  font-size: 1.4rem;
+}
+.nft__creator-name {
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.nft__creator-name:hover {
+  color: #00fff7;
+}
+
+/*# sourceMappingURL=main.css.map */

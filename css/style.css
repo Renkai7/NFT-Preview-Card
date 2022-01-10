@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.nft {
+  background-color: #8bacda;
+  width: 35rem;
+  height: 59.6rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem; }
+  .nft__logo {
+    width: 30.2rem;
+    height: 30.2rem;
+    border-radius: 5px; }
